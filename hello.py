@@ -9,3 +9,7 @@ print("hola mundo, bienvenidos al lenguajes de programación Python")
     
     
 """
+print(type("hello")) # me muestra un tipo de datos string(cadena)
+# consultar el tipo de dato
+print(type("hola mundo genial"))
+print(type(15)) # me muestra un tipo de dato integer(numérico)
