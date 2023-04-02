@@ -9,7 +9,10 @@ print("hola mundo, bienvenidos al lenguajes de programación Python")
     
     
 """
-print(type("hello")) # me muestra un tipo de datos string(cadena)
 # consultar el tipo de dato
-print(type("hola mundo genial"))
+print(type("hola mundo genial")) # me muestra un tipo de datos string(cadena)
 print(type(15)) # me muestra un tipo de dato integer(numérico)
+print(type(15.8)) # me muestra un tipo de dato float(decimal)
+print(type(True)) # me muestra un tipo de dato boolean(booleano)
+print(type(5 + 6j)) ## me muestra un tipo de datos complex(complejo)
+
