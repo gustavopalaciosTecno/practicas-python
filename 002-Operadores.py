@@ -9,7 +9,7 @@ print('esto es un módulo: ',10 % 3)
 print('esto es una división entera: ',10 // 3)
 print('esto es un exponente: ',5 ** 3)
 
-# Concatenamos strings
+# Concatenamos strings:
 print("hola" + " " + "Python")
 # no podemos concatenar un entero con un string
 # print("hola " + 4) 
