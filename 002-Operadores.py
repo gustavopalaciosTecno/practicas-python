@@ -65,4 +65,6 @@ print(3 < 4 or "hola" > "Python" and 4 == 4)
 """
 tres es menor que cuatro, hola en caracter ASCII es mayor que Python y cuatro es igual a cuatro.
 """
-print(not(3 > 4))
+
+
+print(not(3 > 4)) # 3 es mayor que 4, es false, pero al poner el not, inverte la lógica
