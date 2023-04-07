@@ -19,3 +19,11 @@ print(mi_strig_con_tab)
 # strings escapando salto y tabulación
 mi_string_escape = '\\testo es un corto comentario \\nespero sepan enternder \\ny no den tantas vueltas'
 print(mi_string_escape)
+
+# formateo
+name, surname, age = "Néstor", "Palacios Meyer", 41
+print("mi nombre y apellidos son: {0} {1} y mi edad es {2}".format(name, surname, age))
+print("mi nombre y apellidos son: %s %s y mi edad es %d" %(name, surname, age))
+
+
+
