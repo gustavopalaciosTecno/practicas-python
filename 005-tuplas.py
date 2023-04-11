@@ -21,5 +21,6 @@ print(mi_tupla.index("frutillas")) # sin convertir
 
 """
 las tuplas no se pueden modificar, insertar elementos, sus valores
-son inmutables
+son inmutables. se pueden guardar datos en ellas, pero ya estos valores
+estan cerrados.
 """
