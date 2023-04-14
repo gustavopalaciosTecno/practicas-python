@@ -24,3 +24,14 @@ las tuplas no se pueden modificar, insertar elementos, sus valores
 son inmutables. se pueden guardar datos en ellas, pero ya estos valores
 estan cerrados.
 """
+# Sumar tuplas
+print("######## suma de tuplas ########")
+print(mi_tupla + mi_tupla2)
+mi_nueva_tupla = mi_tupla + mi_tupla2
+print(mi_nueva_tupla)
+print(mi_nueva_tupla[3:6]) # incluye los indices del 3 al 5
+
+# convertir tupla en lista
+print("########## tupla a lista #############")
+mi_nueva_tupla = list(mi_nueva_tupla)
+print(type(mi_nueva_tupla))
