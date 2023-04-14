@@ -35,3 +35,22 @@ print(mi_nueva_tupla[3:6]) # incluye los indices del 3 al 5
 print("########## tupla a lista #############")
 mi_nueva_tupla = list(mi_nueva_tupla)
 print(type(mi_nueva_tupla))
+
+"""
+ al convertir la tupla a lista, ahora pueda insertar valores o modifarlos
+"""
+mi_nueva_tupla.insert(1, "Rodriguez")
+print(mi_nueva_tupla)
+mi_nueva_tupla[8] = "numero ocho"
+print(mi_nueva_tupla)
+
+# convertir de lista a tupla
+print("######## convertir de lista a tupla ###########")
+mi_nueva_tupla = tuple(mi_nueva_tupla)
+print(type(mi_nueva_tupla))
+# imprimimos y vemos los valores
+print(mi_nueva_tupla)
+
+# borrar una tupla
+del mi_nueva_tupla
+print(mi_nueva_tupla) # este print dará un error porque antes he borrado la tupla
