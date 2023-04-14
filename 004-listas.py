@@ -1,5 +1,8 @@
 # Listas
-
+"""
+ las listas ordena los valores o elementos. los elementos se pueden modificar, borrar
+ y agregar nuevos elementos. se pueden acceder a estos elementos.
+"""
 mi_lista = list()
 my_other_list = []
 
