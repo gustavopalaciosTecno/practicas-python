@@ -64,4 +64,5 @@ def texts2(*text):
         print(texto.upper())
 # no es necesario poner un print        
 texts2("hola", "muhcas gracias por su colaboración", "encantado de conocerte")   
+
        
