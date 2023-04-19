@@ -31,14 +31,16 @@ print(my_person.full_name)
 my_person.caminar()
 
 class Person1:
-    def __init__(self, nombre):
+    def __init__(self, nombre, alias="sin alias"):
         self.nombre = nombre
-        
+        self.full_name2 = f"{nombre} {alias}"
     def get_nombre(self):
-        return self.__nombre
+        return self.__nombre # propiedad privada
     
-my_person1 = Person1("carlita")
+my_person1 = Person1("carlita", "securityMorpheus")
 print(my_person1.nombre)
+print(my_person1.full_name2)
+
       
         
         
