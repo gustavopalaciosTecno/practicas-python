@@ -29,6 +29,17 @@ class Person:
 my_person = Person("Néstor", "Palacios Meyer")
 print(my_person.full_name)  
 my_person.caminar()
+
+class Person1:
+    def __init__(self, nombre):
+        self.nombre = nombre
+        
+    def get_nombre(self):
+        return self.__nombre
+    
+my_person1 = Person1("carlita")
+print(my_person1.nombre)
+      
         
         
          
