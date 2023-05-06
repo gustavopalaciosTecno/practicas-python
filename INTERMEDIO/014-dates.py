@@ -48,8 +48,8 @@ print(current_date.year)
 print(current_date.month)
 print(current_date.day)
 
-current_date = date(current_date.year,current_date.month + 8, current_date.day)
-print(current_date.month)
+#current_date = date(current_date.year,current_date.month + 8, current_date.day)
+#print(current_date.month)
 
 # cuando son objetos del mismo tipo si se los puede restar
 # primer los objetos son datetime
@@ -62,3 +62,5 @@ print(diferente)
 
 start_delta = timedelta(200,10,15,weeks=200)
 end_delta = timedelta(15,19,21, weeks=100)
+print(end_delta - start_delta)
+print(end_delta + start_delta)
