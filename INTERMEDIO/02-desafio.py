@@ -56,21 +56,21 @@ la que el siguiente siempre es la suma de los dos anteriores
 0,1,1,2,3,5,8,13....
 """
 
-# def fibonacci():
-#     limite = int(input("coloca un valor acá: "))
-#     previo = 0
-#     next = 1
+def fibonacci():
+    limite = int(input("coloca un valor acá: "))
+    previo = 0
+    next = 1
     
-#     for i in range(limite):
+    for i in range(limite):
         
-#         print(previo)
-#         # fib = previo + next
-#         # previo = next
-#         # next = fib
-#         previo, next = next, previo + next      
+        print(previo)
+        # fib = previo + next
+        # previo = next
+        # next = fib
+        previo, next = next, previo + next      
 
     
-# fibonacci()  
+fibonacci()  
   
 # n = int(input("Ingresa un número: "))
 
@@ -120,14 +120,14 @@ la que el siguiente siempre es la suma de los dos anteriores
 
 # print(texto[::-1])
 
-def reverse(text):
-    text_len = len(text)
-    reversed_text = ""
-    for index in range(0, text_len):
-        reversed_text += text[text_len - index -1]
-    return reversed_text
+# def reverse(text):
+#     text_len = len(text)
+#     reversed_text = ""
+#     for index in range(0, text_len):
+#         reversed_text += text[text_len - index -1]
+#     return reversed_text
 
-print(reverse("Hola Mundo"))
+# print(reverse("Hola Mundo"))
 
 # Invertir el orden de las palabras
 
