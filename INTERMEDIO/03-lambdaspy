@@ -1,0 +1,20 @@
+### Lambdas ###
+# funciones anónimas
+# una función lambda se puede almacenar en una variable
+
+sum_two_value =lambda first_value, secound_value: first_value + secound_value
+print(sum_two_value(2,4))
+
+resta = lambda primer_valor, segundo_valor: primer_valor - segundo_valor
+print(resta(6,4))
+
+multipy_value = lambda first_value, secound_value: first_value * secound_value + 3
+print("el resultado es: ",multipy_value(2,5))
+
+def sum_three_values(value):
+    return lambda first_value, secound_value: first_value + secound_value + value
+
+valor = lambda primer_valor: primer_valor * 2
+print("this value is: ",valor(15))
+
+print(sum_three_values(5)(2,4))
