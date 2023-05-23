@@ -3,7 +3,7 @@
 
 # una función puede llamar dentro a otra función
 # pueden ejecutar otras funciones
-# todas las funciones de orden superio necesitan de un iterable y de una función
+# todas las funciones de orden superior necesitan de un iterable y de una función
 from functools import reduce
 
 def sum_one(value):
